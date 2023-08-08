@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   vue: {
@@ -11,7 +10,6 @@ export default defineNuxtConfig({
     dirs: ['~/components'],
   },
   content: {
-    // https://content.nuxtjs.org/api/configuration
     highlight: {
       preload: ['javascript', 'vue', 'html'],
       theme: 'monokai',
